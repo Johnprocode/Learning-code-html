@@ -9,7 +9,7 @@
 section{
     width: 100vw;
     height: 100vh;
-    background-color: aqua;
+    background-color: rgb(151, 156, 59);
 }
 
 section nav{
@@ -51,7 +51,7 @@ section nav ul li a{
 
 /* Despues de hacer varias pruebas no he conseguido el resultado deseado */
 
-main{
+section .title-site{
     width: 100vw;
     height: 80vh;
     background-image: url(/assets/sala\ de\ Bar.jpg);
@@ -61,18 +61,53 @@ main{
     justify-content: center;
     align-items: center;
 }
-
-main p{
-    font-size: large;
-    color: aliceblue;
+section main p{
+    font-size: larger;
+    color: white;
 }
-
-main h1{
+section main h1{
     font-size: xx-large;
-    color: aliceblue;
+    color: white;
+}
+section main h2{
+    font-size: larger;
+    color: white;
 }
 
+/*  sección de CONCEPTO */
 
+.concept{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-image: url(/assets/textura2.png);
+    background-size: 100vw 100VH;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section .conten-concept{
+    width: 60vw;
+    height:60vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section .conten-concept h2{
+    font-size: larger;
+    align-items: center;
+    justify-items: center;
+}
+section .conten-concept p{
+    padding: 10px 20px;
+    text-align: center;
+    justify-items: center;
+    font-size: large;
+}
 
 
 
