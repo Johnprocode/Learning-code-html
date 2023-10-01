@@ -4,8 +4,95 @@
     list-style: none;
 }
 
+/* Nav section  */
+
 section{
     width: 100vw;
     height: 100vh;
     background-color: aqua;
 }
+
+section nav{
+    width: 100vw;
+    height: 20vh;
+    background-color: aliceblue;
+    display: flex;
+}
+
+section nav img{
+    width: 22vw;
+    height: 20vh;
+    margin: 0px 10px 0px 10px;
+}
+
+section nav ul{
+    width: 72vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 0px 10px 0px 10px;
+}
+
+/* En esta parte, no he terminado de justificar y alinear el contenido de la forma adecuada */
+
+section nav ul li{
+    width: 12vw;
+    height: 8vh;
+    text-align: center;
+}
+
+section nav ul li a{
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+/* Despues de hacer varias pruebas no he conseguido el resultado deseado */
+
+main{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(/assets/sala\ de\ Bar.jpg);
+    background-size: 100vw 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main p{
+    font-size: large;
+    color: aliceblue;
+}
+
+main h1{
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
