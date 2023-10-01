@@ -96,7 +96,6 @@ section .conten-concept{
     justify-content: space-evenly;
     align-items: center;
 }
-
 section .conten-concept h2{
     font-size: larger;
     align-items: center;
@@ -107,6 +106,25 @@ section .conten-concept p{
     text-align: center;
     justify-items: center;
     font-size: large;
+}
+
+section .galery{
+    background-image: url(/assets/bar-baviera.jpg);
+    background-size: 100vw 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section img{
+    width: 28vw;
+    height: auto;
+    margin: 10px;
+}
+
+section .carta{
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
 }
 
 
